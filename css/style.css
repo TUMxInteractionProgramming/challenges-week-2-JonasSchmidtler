@@ -48,7 +48,8 @@ strong {
 
 .highlight {
     color: #3F51B5;
-    border-left: 4px solid #3F51B5;}
+    border-left: 4px solid #3F51B5;
+}
 
 em {
     /* #2 #font #remaining overrides the default italic appearance of em elements*/
@@ -56,8 +57,20 @@ em {
     font-style: normal;
 }
 
+#tile li {
+    font-size: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #F5F5F5;
+    box-sizing: content-box;
+    height: 16px;
+}
+
+
 /* Tab-bar */
-#tab-bar {text-align: center;}
+
+#tab-bar {
+    text-align: center;
+}
 
 #tab-bar button {
     /* #2 #colourful #plusfive */
@@ -70,10 +83,11 @@ em {
     height: 72px;
     padding: 16px;
     border: none;
-    }
+}
 
 #tab-bar .selected {
-    border-bottom: 4px solid #3F51B5;}
+    border-bottom: 4px solid #3F51B5;
+}
 
 /* Messages */
 
