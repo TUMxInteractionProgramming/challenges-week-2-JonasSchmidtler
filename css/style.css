@@ -25,14 +25,6 @@ body {
 }
 
 
-button {
-    /* #2 #colourful #plusfive */
-    background-color: #CDDC39;
-    color: black;
-    /* #2 #font capital #letters */
-    text-transform: uppercase;
-}
-
 
 /* App bar*/
 
@@ -61,19 +53,17 @@ em {
     font-style: normal;
 }
 
-/* Tab bar */
+/* Tab-bar */
+#tab-bar {text-align: center;}
 
-/*es wäre auch möglich gewesen button zu definieren*/
-
-div#tab_bar {
+button {
+    /* #2 #colourful #plusfive */
+    font-size: 13px;
     background-color: white;
-    width: 80%;
-}
-
-/*es wäre auch möglich gewesen p zu definieren*/
-
-div#chat_message {
-    width: 80%;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    
 }
 
 
@@ -107,4 +97,6 @@ div#chat_message {
     text-transform: uppercase;
 }
 
-.message .own {margin-left: 15%;}
+.message.own {
+    margin-left: 17.5%;
+}
