@@ -41,11 +41,14 @@ strong {
 
 /* Channels list */
 
-h2 {
+.channels {
     /* #2 #colorful #channelandchat */
     background-color: white;
 }
 
+.highlight {
+    color: #3F51B5;
+    border-left: 4px solid #3F51B5;}
 
 em {
     /* #2 #font #remaining overrides the default italic appearance of em elements*/
@@ -56,16 +59,21 @@ em {
 /* Tab-bar */
 #tab-bar {text-align: center;}
 
-button {
+#tab-bar button {
     /* #2 #colourful #plusfive */
     font-size: 13px;
     background-color: white;
     color: black;
     /* #2 #font capital #letters */
     text-transform: uppercase;
-    
-}
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+    border: none;
+    }
 
+#tab-bar .selected {
+    border-bottom: 4px solid #3F51B5;}
 
 /* Messages */
 
