@@ -54,16 +54,6 @@ h2 {
     background-color: white;
 }
 
-p {
-    /* #2 #colorful #channelandchat */
-    background-color: white;
-}
-
-
-h3 {
-    /* #2 #font #metadata is now medium */
-    font-size: medium;
-}
 
 em {
     /* #2 #font #remaining overrides the default italic appearance of em elements*/
@@ -86,15 +76,35 @@ div#chat_message {
     width: 80%;
 }
 
-/* link color set to primary color */
-
-a {
-    color: black;
-}
 
 /* Messages */
 
 .message {
     font-size: larger;
     font-style: normal;
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
 }
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message a {
+    color: black;
+}
+
+.message p {
+    background-color: white;
+    padding: 16px;
+}
+
+.message button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+.message .own {margin-left: 15%;}
